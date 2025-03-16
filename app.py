@@ -14,36 +14,47 @@ def garantir_diretorios():
 
 garantir_diretorios()
 
+# Chave da API OpenCageData (substitua pela sua)
+OPENCAGE_API_KEY = "71b8c95ea704443d870f79edcc39d4d9"
+
 # Função para registrar logs de erros
-def registrar_erro(cep, motivo):
+def registrar_erro(cep, motivo, resposta=None):
     with open("logs/erros.log", "a") as log_file:
         timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         log_file.write(f"[{timestamp}] CEP: {cep} - Erro: {motivo}\n")
+        if resposta:
+            log_file.write(f"  Resposta da API: {resposta}\n")
 
-# Função assíncrona para obter coordenadas usando BrasilAPI
+# Função assíncrona para obter coordenadas
 async def obter_coordenadas(cep, session):
     url_brasilapi = f"https://brasilapi.com.br/api/cep/v1/{cep}"
-    url_opencage = f"https://api.opencagedata.com/geocode/v1/json?q={cep},Brazil&key=71b8c95ea704443d870f79edcc39d4d9"
+    url_opencage = f"https://api.opencagedata.com/geocode/v1/json?q={cep},Brazil&key={OPENCAGE_API_KEY}"
 
+    # 1️⃣ Tentar BrasilAPI primeiro
     try:
         async with session.get(url_brasilapi) as response:
-            if response.status == 200:
-                data = await response.json()
-                return float(data["location"]["latitude"]), float(data["location"]["longitude"])
-    
-    except Exception:
-        pass  # Tenta a OpenCage caso a BrasilAPI falhe
-    
+            data = await response.json()
+            if response.status == 200 and "location" in data:
+                if "latitude" in data["location"] and "longitude" in data["location"]:
+                    return float(data["location"]["latitude"]), float(data["location"]["longitude"])
+            else:
+                registrar_erro(cep, "BrasilAPI não retornou coordenadas", data)
+
+    except Exception as e:
+        registrar_erro(cep, f"Erro ao acessar BrasilAPI: {str(e)}")
+
+    # 2️⃣ Se BrasilAPI falhar, tentar OpenCageData
     try:
         async with session.get(url_opencage) as response:
-            if response.status == 200:
-                data = await response.json()
-                if data["results"]:
-                    return float(data["results"][0]["geometry"]["lat"]), float(data["results"][0]["geometry"]["lng"])
-    
-    except Exception:
-        registrar_erro(cep, "Não encontrado em nenhuma API")
-    
+            data = await response.json()
+            if response.status == 200 and data.get("results"):
+                return float(data["results"][0]["geometry"]["lat"]), float(data["results"][0]["geometry"]["lng"])
+            else:
+                registrar_erro(cep, "OpenCageData não retornou coordenadas", data)
+
+    except Exception as e:
+        registrar_erro(cep, f"Erro ao acessar OpenCageData: {str(e)}")
+
     return None, None
 
 # Interface do Streamlit
@@ -69,9 +80,16 @@ elif uploaded_file:
     data.columns = data.columns.str.strip().str.lower().str.replace('"', '')
     data['cep'] = data['cep'].str.replace('"', '').str.strip()
     data['quantidade'] = data['quantidade'].str.replace('"', '').str.replace(' ', '').str.replace(',', '.').astype(float)
+
+    # ✅ Agrupar por CEP somando as quantidades
+    data = data.groupby('cep', as_index=False).agg({'quantidade': 'sum'})
+
+    # ✅ Adicionar colunas vazias para lat e lon
     data['lat'] = None
     data['lon'] = None
+
     filename = f"data/dados_{uploaded_file.name}"
+
 else:
     st.warning("⚠️ Por favor, carregue um arquivo ou selecione um existente para continuar.")
     st.stop()
@@ -131,22 +149,7 @@ for _, row in dados_mapa.iterrows():
 st.header("🌎 Mapa Interativo das Vendas (Atualizando em Tempo Real)")
 folium_static(mapa)
 
-# Exibir lista de arquivos disponíveis com links para download
-st.subheader("📁 Arquivos disponíveis para download:")
-
-arquivos_disponiveis = [f for f in os.listdir('data') if f.endswith('.csv')]
-for arquivo in arquivos_disponiveis:
-    caminho_arquivo = f"data/{arquivo}"
-    #st.markdown(f"📄 [{arquivo}](./{caminho_arquivo})", unsafe_allow_html=True)
-    with open(caminho_arquivo, "rb") as file:
-        st.download_button(
-            label=f"⬇️ Baixar {arquivo}",
-            data=file,
-            file_name=arquivo,
-            mime="text/csv"
-        )
-
-# Exibir o arquivo de log de erros, se existir
+# Exibir logs de erros
 if os.path.exists("logs/erros.log"):
     st.subheader("⚠️ Erros registrados:")
     with open("logs/erros.log", "r") as log_file:
@@ -155,3 +158,14 @@ if os.path.exists("logs/erros.log"):
             st.text_area("CEP não encontrados e motivos:", value="".join(erros), height=150)
         else:
             st.success("✅ Nenhum erro registrado!")
+
+# ✅ Botão para download do dataset atualizado
+st.subheader("📁 Baixar arquivo processado:")
+if os.path.exists(filename):
+    with open(filename, "rb") as file:
+        st.download_button(
+            label="⬇️ Baixar CSV Processado",
+            data=file,
+            file_name=os.path.basename(filename),
+            mime="text/csv"
+        )
