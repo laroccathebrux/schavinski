@@ -98,6 +98,9 @@ texto_progresso = st.empty()
 async def processar_ceps():
     global data
     async with ClientSession() as session:
+        # Limpar arquivo de erros ao iniciar o app
+        with open("logs/erros.log", "w") as log_file:
+            log_file.write("")
         tarefas = []
         indices = list(dados_pendentes.index)
         
