@@ -27,33 +27,28 @@ def registrar_erro(cep, motivo, resposta=None):
 
 # Função assíncrona para obter coordenadas
 async def obter_coordenadas(cep, session):
-    url_brasilapi = f"https://brasilapi.com.br/api/cep/v1/{cep}"
+    url_brasilapi = f"https://brasilapi.com.br/api/cep/v2/{cep}"
     url_opencage = f"https://api.opencagedata.com/geocode/v1/json?q={cep},Brazil&key={OPENCAGE_API_KEY}"
 
     # 1️⃣ Tentar BrasilAPI primeiro
     try:
         async with session.get(url_brasilapi) as response:
+            if response.status == 429:
+                #st.warning(f"⚠️ BrasilAPI bloqueou a requisição para o CEP {cep}. Aguardando antes de tentar novamente...")
+                await asyncio.sleep(3)  # Aguarda 3 segundos antes de tentar de novo
+                return await obter_coordenadas(cep, session)  # Tenta novamente
+
             data = await response.json()
             if response.status == 200 and "location" in data:
-                if "latitude" in data["location"] and "longitude" in data["location"]:
-                    return float(data["location"]["latitude"]), float(data["location"]["longitude"])
+                if "latitude" in data["location"]["coordinates"] and "longitude" in data["location"]["coordinates"]:
+                    return float(data["location"]["coordinates"]["latitude"]), float(data["location"]["coordinates"]["longitude"])
             else:
                 registrar_erro(cep, "BrasilAPI não retornou coordenadas", data)
 
     except Exception as e:
         registrar_erro(cep, f"Erro ao acessar BrasilAPI: {str(e)}")
 
-    # 2️⃣ Se BrasilAPI falhar, tentar OpenCageData
-    try:
-        async with session.get(url_opencage) as response:
-            data = await response.json()
-            if response.status == 200 and data.get("results"):
-                return float(data["results"][0]["geometry"]["lat"]), float(data["results"][0]["geometry"]["lng"])
-            else:
-                registrar_erro(cep, "OpenCageData não retornou coordenadas", data)
-
-    except Exception as e:
-        registrar_erro(cep, f"Erro ao acessar OpenCageData: {str(e)}")
+    
 
     return None, None
 
@@ -78,7 +73,7 @@ if selected_existing_file != "Nenhum":
 elif uploaded_file:
     data = pd.read_csv(uploaded_file, sep=';', dtype=str)
     data.columns = data.columns.str.strip().str.lower().str.replace('"', '')
-    data['cep'] = data['cep'].str.replace('"', '').str.strip()
+    data['cep'] = data['cep'].str.replace('"', '').str.replace('-', '').str.strip()
     data['quantidade'] = data['quantidade'].str.replace('"', '').str.replace(' ', '').str.replace(',', '.').astype(float)
 
     # ✅ Agrupar por CEP somando as quantidades
