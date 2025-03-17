@@ -37,8 +37,8 @@ async def obter_coordenadas(cep, session):
             
             data = await response.json()
             if response.status == 200 and "location" in data:
-                lat = float(data["location"]["coordinates"]["latitude"])
-                lon = float(data["location"]["coordinates"]["longitude"])
+                lat = float(data["location"]["coordinates"]["latitude"]) if "latitude" in data["location"]["coordinates"] else None
+                lon = float(data["location"]["coordinates"]["longitude"]) if "longitude" in data["location"]["coordinates"] else None
                 state = data.get("state", "")
                 city = data.get("city", "")
                 neighborhood = data.get("neighborhood", "")
