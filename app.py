@@ -134,7 +134,7 @@ with tab1:
             location=[row['lat'], row['lon']],
             radius=max(3, row['quantidade'] / dados_mapa['quantidade'].max() * 20),
             popup=f"📍 CEP: {row['cep']}<br>🛒 Quantidade: {row['quantidade']}<br>🏙️ Cidade: {row['city']}<br>🏡 Bairro: {row['neighborhood']}<br>📍 Rua: {row['street']}",
-            color='blue',
+            color='#3cd062',
             fill=True,
             fill_opacity=0.6
         ).add_to(mapa_cep)
@@ -161,7 +161,7 @@ with tab2:
                     location=[row['lat'], row['lon']],
                     radius=max(5, row['quantidade'] / dados_cidade['quantidade'].max() * 30),
                     popup=f"🏙️ Cidade: {row['city']}<br>🛒 Total de vendas: {row['quantidade']}",
-                    color='red',
+                    color='#003e00',
                     fill=True,
                     fill_opacity=0.6
                 ).add_to(mapa_cidade)

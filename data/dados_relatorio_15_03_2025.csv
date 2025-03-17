@@ -90,7 +90,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 68633000,2.0,-4.2928111,-47.5559083,PA,Dom Eliseu,,,open-cep
 69315212,100.0,,,RR,Boa Vista,Distrito Industrial Governador Aquilino Mota Duarte,Rua DI-B,open-cep
 69380000,34.0,3.3613818,-59.8427241,RR,Bonfim,,,open-cep
-69931000,22.0,,,AC,Capixaba,,,open-cep
+69931000,22.0,,,,,,,
 71200234,98.0,-15.79799875,-47.9685851,DF,Brasília,Zona Industrial (Guará),Trecho SIA Trecho 17 Rua 12,open-cep
 72975000,80.0,,,GO,Cocalzinho de Goiás,,,open-cep
 73770000,10.0,-14.1304779,-47.5100161,GO,Alto Paraíso de Goiás,,,open-cep
