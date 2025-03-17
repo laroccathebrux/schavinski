@@ -7,6 +7,8 @@ import asyncio
 import datetime
 from aiohttp import ClientSession
 from folium.plugins import Fullscreen
+from streamlit.components.v1 import html
+
 
 
 # Criar diretórios necessários
@@ -145,7 +147,8 @@ with tab1:
         ).add_to(mapa_cep)
 
     st.header("🌎 Mapa Interativo por CEP")
-    folium_static(mapa_cep)
+    mapa_cep_html = mapa_cep._repr_html_()
+    html(mapa_cep_html, height=600)
 
 # Aba 2: Mapa por Cidade
 with tab2:
@@ -174,7 +177,9 @@ with tab2:
                 ).add_to(mapa_cidade)
 
             st.header("🏙️ Mapa Interativo por Cidade")
-            folium_static(mapa_cidade)
+            mapa_cidade_html = mapa_cidade._repr_html_()
+            html(mapa_cidade_html, height=600)
+
 
 # Exibir logs de erros
 st.subheader("⚠️ Erros registrados:")
