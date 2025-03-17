@@ -94,8 +94,7 @@ barra_progresso = st.progress(0)
 texto_progresso = st.empty()
 
 async def processar_ceps():
-    global dados_pendentes
-    data = dados_pendentes.copy()
+    global data
     async with ClientSession() as session:
         # Limpar arquivo de erros ao iniciar o app
         with open("logs/erros.log", "w") as log_file:
