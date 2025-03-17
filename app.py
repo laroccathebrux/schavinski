@@ -6,6 +6,8 @@ import os
 import asyncio
 import datetime
 from aiohttp import ClientSession
+from folium.plugins import Fullscreen
+
 
 # Criar diretórios necessários
 def garantir_diretorios():
@@ -92,7 +94,8 @@ barra_progresso = st.progress(0)
 texto_progresso = st.empty()
 
 async def processar_ceps():
-    global data
+    global dados_pendentes
+    data = dados_pendentes.copy()
     async with ClientSession() as session:
         # Limpar arquivo de erros ao iniciar o app
         with open("logs/erros.log", "w") as log_file:
@@ -124,10 +127,13 @@ dados_mapa = data.dropna(subset=['lat', 'lon'])
 
 # Criar abas para alternar entre visualização por CEP e por Cidade
 tab1, tab2 = st.tabs(["📍 Mapa por CEP", "🏙️ Mapa por Cidade"])
+#tab2 = st.tabs(["🏙️ Mapa por Cidade"])
 
 # Aba 1: Mapa por CEP
+
 with tab1:
     mapa_cep = folium.Map(location=[-14.2350, -51.9253], zoom_start=5)
+    Fullscreen(position="topright", title="Tela Cheia", title_cancel="Sair do Fullscreen").add_to(mapa_cep)
 
     for _, row in dados_mapa.iterrows():
         folium.CircleMarker(
@@ -155,6 +161,8 @@ with tab2:
             st.warning("⚠️ Nenhuma cidade possui coordenadas válidas.")
         else:
             mapa_cidade = folium.Map(location=[-14.2350, -51.9253], zoom_start=5)
+            Fullscreen(position="topright", title="Tela Cheia", title_cancel="Sair do Fullscreen").add_to(mapa_cidade)
+
 
             for _, row in dados_cidade.iterrows():
                 folium.CircleMarker(

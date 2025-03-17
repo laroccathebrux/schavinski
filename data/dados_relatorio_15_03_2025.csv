@@ -3,221 +3,117 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 08375000,1.0,,,SP,São Paulo,Jardim Três Marias,Avenida Ragueb Chohfi,open-cep
 08605524,2.0,,,,,,,
 12580524,10.0,,,SP,Roseira,Pedro Leme,Rua João Miguel,open-cep
-13416310,30.0,-22.721146429526552,-47.63758499605179,SP,Piracicaba,Cidade Jardim,Rua Campos Salles,open-cep
 13486124,2.0,,,SP,Limeira,Boa Vista,Rua Oliveiros Jorge,open-cep
 13631970,14.0,,,SP,Pirassununga,Centro,Avenida Newton Prado 3329,open-cep
-14120000,2.0,-21.2391417,-47.9747665,SP,Dumont,,,open-cep
-14180000,30.0,-20.9952637,-48.06604758125492,SP,Pontal,,,open-cep
 14315358,2.0,,,SP,Batatais,Riachuelo,Avenida Moacir Dias de Morais,open-cep
-15092440,14.0,-20.83906853529993,-49.41612443207329,SP,São José do Rio Preto,Jardim Tarraf II,Rua República do Líbano,open-cep
-15470000,20.0,-20.389344,-49.4320384,SP,Palestina,,,open-cep
 15620000,10.0,,,SP,Macedônia,,,open-cep
-15775000,18.0,-20.2106188,-50.9270837,SP,Santa Fé do Sul,,,open-cep
-15950000,36.0,-21.2432992,-48.8061481,SP,Santa Adélia,,,open-cep
 15994900,2.0,,,SP,Matão,Nova Matão,Avenida Marchesan 1979,open-cep
 18207844,24.0,,,SP,Itapetininga,Parque São Bento,Rua Luiz Gonzaga Rocha,open-cep
-18225000,8.0,-23.63974,-47.824863,SP,Sarapuí,,,open-cep
 18406450,44.0,,,SP,Itapeva,Jardim Europa,Rua Áustria,open-cep
-18460516,2.0,-24.107642331467005,-49.337155197275465,SP,Itararé,Jardim Regina,Rua Amazonas Ribas,open-cep
 18610603,8.0,,,SP,Botucatu,Colinas do Paraíso,Rua Sylvio Baptista de Almeida Junior,open-cep
-18690000,14.0,-23.1042417,-48.6134874,SP,Itatinga,,,open-cep
 18709899,2.0,,,SP,Avaré,Área Rural de Avaré,Área Rural,open-cep
 18725000,22.0,,,SP,Paranapanema,Holambra II,,open-cep
 18744899,8.0,,,SP,Taquarituba,Área Rural de Taquarituba,Área Rural,open-cep
 18879899,2.0,,,SP,Fartura,Área Rural de Fartura,Área Rural,open-cep
 19864899,22.0,,,SP,Cruzália,Área Rural de Cruzália,Área Rural,open-cep
-19880025,4.0,-22.75147121620771,-50.38870408525864,SP,Cândido Mota,Centro,Rua Manoel Joaquim Marobo,open-cep
 19889899,2.0,,,SP,Cândido Mota,Área Rural de Santo Antônio do Paranapanema,Área Rural,open-cep
 19940021,18.0,,,SP,Ibirarema,Centro,Rua Doutor Júlio Prestes,open-cep
 19960040,4.0,,,SP,Campos Novos Paulista,Jardim dos Ypês,Rua Elízio Aurélio Bertoncini,open-cep
 19978899,22.0,,,SP,Palmital,Área Rural de Palmital,Área Rural,open-cep
-29909010,24.0,-19.354346254710865,-40.06416803909852,ES,Linhares,Canivete,Avenida Prefeito Samuel Batista Cruz,open-cep
 37223000,12.0,,,MG,Ibituruna,,,open-cep
 37407000,50.0,,,MG,São Bento Abade,,,open-cep
 37418899,14.0,,,MG,Três Corações,Área Rural de Três Corações,Área Rural,open-cep
 37790000,8.0,,,MG,Ibitiúra de Minas,,,open-cep
-37980000,26.0,-20.5837538,-46.9219923,MG,Cássia,,,open-cep
 38057801,2.0,,,MG,Uberaba,Villaggio Di Fiori,Rua Adília de Novaes Franca,open-cep
 38175000,32.0,,,MG,Santa Juliana,,,open-cep
 38184899,28.0,,,MG,Araxá,Área Rural de Araxá,Área Rural,open-cep
-38202064,2.0,-20.01746074614589,-48.92669134985756,MG,Frutal,Alto Boa Vista,Rua Afrânio Peixoto,open-cep
 38270000,2.0,,,MG,Campina Verde,,,open-cep
-38412102,2.0,-18.961691742584588,-48.35367825789632,MG,Uberlândia,Cidade Jardim,Rua dos Pinheiros,open-cep
 38490000,24.0,,,MG,Indianópolis,,,open-cep
-38570000,18.0,-17.7698233,-47.0986827,MG,Guarda-Mor,,,open-cep
-38610074,26.0,-16.356803162656224,-46.90288198574001,MG,Unaí,Centro,Rua Afonso Pena,open-cep
 38616014,66.0,,,MG,Unaí,Cruzeiro,Rua Ouro Preto,open-cep
 38623899,110.0,,,MG,Unaí,Área Rural de Unaí,Área Rural,open-cep
-38650000,28.0,-16.5660011,-45.98645,MG,Bonfinópolis de Minas,,,open-cep
-38660000,34.0,-15.621389,-46.423889,MG,Buritis,,,open-cep
 38689000,22.0,,,MG,Chapada Gaúcha,,,open-cep
 38755000,12.0,,,MG,Lagoa Grande,,,open-cep
-38779000,10.0,-17.0096409,-46.0087622,MG,Brasilândia de Minas,,,open-cep
-39480000,18.0,-15.4875,-44.361111,MG,Januária,,,open-cep
 47100000,48.0,,,BA,Barra,,,open-cep
 47650000,110.0,,,BA,Correntina,,,open-cep
 47655000,90.0,,,BA,Jaborandi,,,open-cep
 47803750,128.0,,,BA,Barreiras,Alphaville,Avenida Clériston Andrade,open-cep
 47806124,40.0,,,BA,Barreiras,Vila Regina,Rua Marcos Freire,open-cep
 47819899,108.0,,,BA,Barreiras,Área Rural de Barreiras,Área Rural,open-cep
-47820000,125.0,-12.357196,-44.976881,BA,São Desidério,,,open-cep
 47850000,2.0,,,BA,Luís Eduardo Magalhães,,,open-cep
 47855676,256.0,,,BA,Luís Eduardo Magalhães,Jardim Paraíso,Rua Juscelino Kubitschek,open-cep
-47855724,102.0,-12.102526812484808,-45.777125187376114,BA,Luís Eduardo Magalhães,Jardim Paraíso,Rua Tom Jobim,open-cep
 47865899,190.0,,,BA,Luís Eduardo Magalhães,Área Rural de Luís Eduardo Magalhães,Área Rural,open-cep
 47970000,98.0,,,BA,Riachão das Neves,,,open-cep
-47990000,106.0,-11.0414544,-45.1903983,BA,Formosa do Rio Preto,,,open-cep
 49514000,16.0,,,SE,Frei Paulo,,,open-cep
-62665000,8.0,-3.672399,-39.2364881,CE,São Luís do Curu,,,open-cep
-62960000,170.0,-5.2440865,-38.1284605,CE,Tabuleiro do Norte,,,open-cep
-64860000,60.0,-7.797000000000001,-44.57487085020243,PI,Uruçuí,,,open-cep
 64900000,10.0,,,PI,Bom Jesus,,,open-cep
-64930000,12.0,-9.8295491,-45.3389933,PI,Gilbués,,,open-cep
 65530000,26.0,,,MA,Urbano Santos,,,open-cep
-65715000,28.0,-4.5627272,-45.1298628,MA,Lago da Pedra,,,open-cep
-65780000,60.0,-5.3200262,-44.2440583,MA,Governador Eugênio Barros,,,open-cep
-65800000,210.0,-7.53214,-46.037163,MA,Balsas,,,open-cep
-65930000,10.0,-4.9515026,-47.500732,MA,Açailândia,,,open-cep
-65937000,20.0,-6.1898777,-47.0325965,MA,Lajeado Novo,,,open-cep
-65940000,144.0,-5.8154034,-46.1361454,MA,Grajaú,,,open-cep
-65980000,4.0,-7.3313437,-47.4738762,MA,Carolina,,,open-cep
-65990000,4.0,-7.3642557,-46.6226095,MA,Riachão,,,open-cep
 68193000,176.0,,,PA,Novo Progresso,,,open-cep
 68521000,26.0,,,PA,Brejo Grande do Araguaia,,,open-cep
-68560000,60.0,-9.3348334,-50.3427734,PA,Santana do Araguaia,,,open-cep
 68565000,30.0,,,PA,Santa Maria das Barreiras,,,open-cep
 68627451,170.0,,,PA,Paragominas,Nova Conquista,Rodovia PA-256,open-cep
-68633000,2.0,-4.2928111,-47.5559083,PA,Dom Eliseu,,,open-cep
 69315212,100.0,,,RR,Boa Vista,Distrito Industrial Governador Aquilino Mota Duarte,Rua DI-B,open-cep
-69380000,34.0,3.3613818,-59.8427241,RR,Bonfim,,,open-cep
-69931000,22.0,,,,,,,
-71200234,98.0,-15.79799875,-47.9685851,DF,Brasília,Zona Industrial (Guará),Trecho SIA Trecho 17 Rua 12,open-cep
+69931000,22.0,,,AC,Capixaba,,,open-cep
 72975000,80.0,,,GO,Cocalzinho de Goiás,,,open-cep
-73770000,10.0,-14.1304779,-47.5100161,GO,Alto Paraíso de Goiás,,,open-cep
-73780000,40.0,-14.9803368,-47.7824312,GO,Água Fria de Goiás,,,open-cep
-73850000,96.0,-16.7680599,-47.6133427,GO,Cristalina,,,open-cep
-73900000,184.0,-14.0835852,-46.3563185,GO,Posse,,,open-cep
 73990000,120.0,,,GO,Sítio D'Abadia,,,open-cep
 74425380,60.0,,,GO,Goiânia,Cidade Jardim,Avenida Venerando de Freitas,open-cep
 74610210,2.0,,,GO,Goiânia,Setor Leste Universitário,Rua 257,open-cep
-74810100,244.0,-16.70554381895677,-49.23968315248064,GO,Goiânia,Jardim Goiás,Avenida Deputado Jamel Cecílio,open-cep
-74810230,2.0,-16.699563430262774,-49.240733353453734,GO,Goiânia,Jardim Goiás,Rua 55,open-cep
-75110250,22.0,-16.33639256351066,-48.93983962037347,GO,Anápolis,Jundiaí,Rua Elias Gomes,open-cep
 75110477,22.0,,,GO,Anápolis,Jundiaí,Rua Presidente Kennedy,open-cep
 75184000,120.0,,,GO,Gameleira de Goiás,,,open-cep
 75240000,28.0,,,GO,Bela Vista de Goiás,,,open-cep
 75395000,24.0,,,GO,Avelinópolis,,,open-cep
-75503070,24.0,-18.42273639552447,-49.2151304295462,GO,Itumbiara,Centro,Rua Franklin Xavier,open-cep
 75600000,24.0,,,GO,Goiatuba,,,open-cep
-75610000,72.0,-17.8063651,-49.623645,GO,Joviânia,,,open-cep
-75620000,98.0,-17.5144331,-49.4449688,GO,Pontalina,,,open-cep
 75650000,160.0,,,GO,Morrinhos,,,open-cep
-75704020,4.0,-18.161024352916165,-47.93971115209376,GO,Catalão,Loteamento Vila Chaud,Avenida Doutor Lamartine Pinto de Avelar,open-cep
 75800001,148.0,,,GO,Jataí,Setor Central - Parte Baixa,Avenida Professor Edvan Assis Melo,open-cep
-75800054,4.0,-17.88649125,-51.71150025,GO,Jataí,Centro,Rua Capitão Francisco Joaquim Vilela,open-cep
 75803297,12.0,,,GO,Jataí,Setor Hermosa,Rua Zeca Vilela,open-cep
 75803615,4.0,,,GO,Jataí,Residencial das Brisas,Rua 12,open-cep
 75804053,4.0,,,GO,Jataí,Samuel Grahan,Rua 4,open-cep
 75804712,170.0,,,GO,Jataí,Residencial Flamboyant,Rua W 7,open-cep
-75805030,68.0,-17.870911188794842,-51.72469523861054,GO,Jataí,Setor Aeroporto,Rua Salgado Filho,open-cep
 75809899,44.0,,,GO,Jataí,Área Rural de Jataí,Área Rural,open-cep
 75820000,198.0,,,GO,Serranópolis,,,open-cep
-75828000,10.0,-18.3951972,-52.6670783,GO,Chapadão do Céu,,,open-cep
 75830000,34.0,,,GO,Mineiros,,,widenet
-75830076,6.0,-17.55764895,-52.5560773,GO,Mineiros,Centro,Rua Treze,open-cep
-75830144,30.0,-17.567289992897418,-52.563905262976384,GO,Mineiros,Setor Machado,Rua Elias Carrijo Machado,open-cep
 75832011,30.0,,,GO,Mineiros,Mundinho,Rua Quatro,open-cep
 75832052,30.0,,,GO,Mineiros,Setor São Bento,Avenida Sete,open-cep
 75832100,26.0,,,GO,Mineiros,Setor Nossa Senhora de Fátima,Rua Tonico Luciano,open-cep
 75832567,2.0,,,GO,Mineiros,Loteamento Martins II,Rua Santana,open-cep
-75832598,26.0,-17.5503907252587,-52.566189860781286,GO,Mineiros,Residencial Portal do Cerrado,Avenida Vinhático,open-cep
 75834279,30.0,,,GO,Mineiros,Morada do Sol,Avenida Ino Resende,open-cep
 75834392,162.0,,,GO,Mineiros,Loteamento Almerinda Rezende,Avenida Ino Resende,open-cep
 75838899,93.0,,,GO,Mineiros,Área Rural de Mineiros,Área Rural,open-cep
-75850000,284.0,-16.9538779,-51.8090761,GO,Caiapônia,,,open-cep
 75860000,76.0,,,GO,Quirinópolis,,,open-cep
-75880000,13.0,-18.9137048,-50.6536307,GO,Paranaiguara,,,open-cep
 75900000,72.0,,,,,,,
-75906490,322.0,-17.804335895705655,-50.92674691036732,GO,Rio Verde,Jardim Bela Vista,Rua Honorina Campos de Leão,open-cep
-75908740,2.0,-17.795052075257754,-50.943000678783946,GO,Rio Verde,Setor Morada do Sol,Avenida José Walter,open-cep
-75909802,120.0,-17.778794331257203,-50.95167933094445,GO,Rio Verde,Residencial Interlagos,Rua Acácio Fonseca,open-cep
 75915000,301.0,,,GO,Montividiu,,,open-cep
 75930000,26.0,,,GO,Maurilândia,,,open-cep
-75940000,4.0,-17.3407253,-49.9292351,GO,Edéia,,,open-cep
-76210000,88.0,-16.1841736,-50.9522616,GO,Jaupaci,,,open-cep
 76230000,32.0,,,GO,Piranhas,,,open-cep
 76235000,52.0,,,GO,Arenópolis,,,open-cep
 76381328,18.0,,,GO,Goianésia,Conjunto Meridian,Avenida Bela Vista,open-cep
 76800000,20.0,,,,,,,
-76820370,30.0,-8.759569087492203,-63.87456424505962,RO,Porto Velho,Agenor de Carvalho,Avenida Prefeito Chiquilito Erse,open-cep
 76864000,38.0,,,RO,Cujubim,,,open-cep
 76934000,4.0,,,RO,Seringueiras,,,open-cep
-76980044,14.0,-12.742465407130782,-60.13447898105975,RO,Vilhena,Centro (S-01),Rua Paulo Rogério Fornari,open-cep
 77023464,224.0,,,TO,Palmas,Plano Diretor Sul,Quadra ASR SE 95 Alameda 9,open-cep
 77249899,40.0,,,TO,Palmas,Área Rural de Palmas,Área Rural de Palmas,open-cep
-77403080,2.0,-11.722051855554128,-49.07332182562378,TO,Gurupi,Setor Central,Avenida Guanabara,open-cep
-77458000,4.0,-11.9850885,-48.9113689,TO,Sucupira,,,open-cep
-77465000,78.0,-12.1347916,-49.1737141,TO,Figueirópolis,,,open-cep
-77480000,4.0,-12.478465,-49.124926,TO,Alvorada,,,open-cep
-77500000,52.0,-10.7019786,-48.4110952,TO,Porto Nacional,,,open-cep
-77575000,48.0,-10.1417377,-49.1781853,TO,Chapada de Areia,,,open-cep
-77695000,82.0,-8.7720092,-48.9340879,TO,Goianorte,,,open-cep
-77700000,4.0,-8.835429,-48.511432,TO,Guaraí,,,open-cep
 77813445,24.0,,,TO,Araguaína,Loteamento Dona Nélcia,Rua Cardel Arco Verde,open-cep
-77848000,60.0,-7.150072,-48.6925943,TO,Santa Fé do Araguaia,,,open-cep
-78050260,2.0,-15.577395577398724,-56.07385785499425,MT,Cuiabá,Jardim Aclimação,Rua Gentil Esteves,open-cep
 78200000,20.0,,,MT,Cáceres,,,widenet
 78250000,20.0,,,MT,Pontes e Lacerda,,,open-cep
 78254000,28.0,,,MT,Conquista D'Oeste,,,open-cep
-78310000,100.0,-13.6581107,-59.786883,MT,Comodoro,,,open-cep
-78320000,4.0,-11.4230908,-58.7570212,MT,Juína,,,open-cep
-78360000,423.0,-13.658735,-57.890723,MT,Campo Novo do Parecis,,,open-cep
-78365000,76.0,-13.547958,-58.8146235,MT,Sapezal,,,open-cep
-78390000,20.0,-15.0683712,-57.1853688,MT,Barra do Bugres,,,open-cep
 78400000,1.0,,,MT,Diamantino,,,open-cep
-78435000,62.0,-13.4467103,-56.7214365,MT,São José do Rio Claro,,,open-cep
 78440000,60.0,,,MT,Nova Maringá,,,open-cep
 78450000,34.0,,,MT,Nova Mutum,,,open-cep
-78455000,60.0,-13.0664609,-55.9196711,MT,Lucas do Rio Verde,,,open-cep
 78457899,74.0,,,MT,Nova Mutum,Área Rural de Nova Mutum,Área Rural,open-cep
 78460500,200.0,,,MT,Lucas do Rio Verde,Bandeirantes,Avenida da Produção,open-cep
 78466579,48.0,,,MT,Lucas do Rio Verde,Parque das Emas,Rua das Itaúbas,open-cep
 78469000,4.0,,,MT,Lucas do Rio Verde,Groslândia,,open-cep
-78500000,18.0,-10.8094999,-55.4540386,MT,Colíder,,,open-cep
-78535000,8.0,-11.0794264,-54.5202451,MT,Marcelândia,,,open-cep
 78545000,294.0,,,MT,Santa Carmem,,,open-cep
 78548000,1.0,,,MT,Nova Santa Helena,,,open-cep
-78550544,48.0,-11.840431530213822,-55.50219534503852,MT,Sinop,Setor Industrial Norte,Avenida dos Jequitibás,open-cep
-78556646,60.0,-11.8801455,-55.51754995,MT,Sinop,Jardim Celeste,Rua das Jaboticabeiras,open-cep
 78559899,16.0,,,MT,Sinop,Área Rural de Sinop,Área Rural,open-cep
 78573000,60.0,,,MT,Tapurah,,,open-cep
 78578000,52.0,,,MT,Ipiranga do Norte,,,open-cep
 78607899,8.0,,,MT,Barra do Garças,Área Rural de Barra do Garças,Área Rural,open-cep
 78628000,2.0,,,MT,Santo Antônio do Leste,,,open-cep
-78630000,22.0,-14.5403731,-52.7970626,MT,Campinápolis,,,open-cep
-78635000,700.0,-14.0522968,-52.1617625,MT,Água Boa,,,open-cep
-78640000,58.0,-13.5564602,-52.2691167,MT,Canarana,,,open-cep
-78643000,32.0,-12.5944625,-52.2088505,MT,Querência,,,open-cep
-78645000,90.0,-10.013666,-51.118599,MT,Vila Rica,,,open-cep
-78650000,26.0,-10.470375,-50.513986,MT,Santa Terezinha,,,open-cep
-78652000,102.0,-10.643695,-51.569873,MT,Confresa,,,open-cep
 78664000,4.0,,,MT,Santa Cruz do Xingu,,,open-cep
 78668000,4.0,,,MT,Serra Nova Dourada,,,open-cep
-78670000,50.0,-11.6170646,-50.6667246,MT,São Félix do Araguaia,,,open-cep
-78678000,180.0,-12.1725897,-51.5074425,MT,Bom Jesus do Araguaia,,,open-cep
-78690000,30.0,-14.6794165,-52.351994,MT,Nova Xavantina,,,open-cep
-78710425,28.0,-16.451732300646906,-54.64817270889756,MT,Rondonópolis,Jardim Santa Marta,Avenida José de Alencar,open-cep
-78770000,44.0,-16.9469683,-53.529427,MT,Alto Garças,,,open-cep
 78785000,126.0,,,MT,Alto Taquari,,,open-cep
 78790000,52.0,,,MT,Itiquira,,,open-cep
 78810000,30.0,,,MT,Juscimeira,,,open-cep
 78830000,24.0,,,MT,Dom Aquino,,,open-cep
-78840000,23.0,-15.5430787,-55.1590511,MT,Campo Verde,,,open-cep
-78850000,522.0,-15.5614127,-54.2993946,MT,Primavera do Leste,,,open-cep
-78870000,102.0,-14.4297856,-54.0503432,MT,Paranatinga,,,open-cep
-78875000,8.0,-13.18136,-53.2543946,MT,Gaúcha do Norte,,,open-cep
 78880000,32.0,,,MT,Vera,,,open-cep
-78885000,272.0,-12.3802463,-54.9389793,MT,Feliz Natal,,,open-cep
 78888000,20.0,,,MT,Nova Ubiratã,,,open-cep
 78890130,8.0,,,MT,Sorriso,Centro-Norte,Rua das Hortênsias,open-cep
 78892181,10.0,,,MT,Sorriso,Jardim Aurora,Rua das Macieiras,open-cep
@@ -225,26 +121,15 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 78896050,2.0,,,MT,Sorriso,Centro-Sul,Rua Genésio Roberto Baggio,open-cep
 78898899,24.0,,,MT,Sorriso,Área Rural de Sorriso,Área Rural,open-cep
 79000170,2.0,,,,,,,
-79002141,20.0,-20.463062142473287,-54.602655627640665,MS,Campo Grande,Centro,Rua Quinze de Novembro,open-cep
 79010090,2.0,,,MS,Campo Grande,Monte Castelo,Rua Júlio Barone,open-cep
-79040010,30.0,-20.459279411615,-54.58946870038098,MS,Campo Grande,Chácara Cachoeira,Avenida Afonso Pena,open-cep
-79051690,8.0,-20.4897404,-54.58473835,MS,Campo Grande,Jardim Auxiliadora,Rua Luiz Coutinho de Alencar,open-cep
 79124899,6.0,,,MS,Campo Grande,Área Rural de Campo Grande,Área Rural,open-cep
 79150000,132.0,,,MS,Maracaju,,,open-cep
-79150142,36.0,-21.628360804791814,-55.15812323211039,MS,Maracaju,Dom Bosco,Rua Melânio Garcia Barbosa,open-cep
 79170000,2.0,,,MS,Sidrolândia,,,open-cep
-79180000,22.0,-20.4477984,-53.7609001,MS,Ribas do Rio Pardo,,,open-cep
 79260000,22.0,,,MS,Bela Vista,,,open-cep
-79380000,80.0,-20.2401082,-56.3844728,MS,Miranda,,,open-cep
 79430000,20.0,,,MS,Bandeirantes,,,open-cep
 79490000,38.0,,,MS,São Gabriel do Oeste,,,open-cep
-79560000,108.0,-18.7949051,-52.6199512,MS,Chapadão do Sul,,,open-cep
 79780000,12.0,,,MS,Bataguassu,,,open-cep
-79904442,60.0,-22.52969317863161,-55.716812972734495,MS,Ponta Porã,Vila Vitória,Rua Coronel Camisão,open-cep
-79904686,4.0,-22.535809637712298,-55.719662699188994,MS,Ponta Porã,Centro,Rua Guia Lopes,open-cep
 79932000,2.0,,,MS,Aral Moreira,Vila Marques,,open-cep
-81200300,6.0,-25.434091962199226,-49.33491533012924,PR,Curitiba,Mossunguê,Rua José Nicco,open-cep
-81945020,100.0,-25.59701474936764,-49.30721299307157,PR,Curitiba,Campo de Santana,Rua Ângela Gabardo Parolin,open-cep
 83880000,14.0,,,PR,Rio Negro,,,open-cep
 83980000,32.0,,,PR,Antônio Olinto,,,open-cep
 84043000,20.0,,,PR,Ponta Grossa,Colônia Dona Luíza,Avenida Visconde de Mauá,open-cep
@@ -252,161 +137,65 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 84165720,20.0,,,PR,Castro,Bom Sucesso,Rodovia PR-340,open-cep
 84196200,68.0,,,PR,Castro,Colônia Castrolânda,,open-cep
 84220000,4.0,,,PR,Sengés,,,open-cep
-84300000,26.0,-24.5151667,-50.4101487,PR,Tibagi,,,open-cep
-84350000,26.0,-24.2088891,-50.925043,PR,Ortigueira,,,open-cep
 84507060,2.0,,,PR,Irati,Stroparo,Rua Trajano Gracia,open-cep
 84570000,2.0,,,PR,Mallet,,,open-cep
 84980000,60.0,,,PR,São José da Boa Vista,,,open-cep
-84990000,66.0,-24.1457957,-49.8224605,PR,Arapoti,,,open-cep
-85010020,28.0,-25.390639655238324,-51.464429358074106,PR,Guarapuava,Centro,Rua Padre Chagas,open-cep
-85025010,4.0,-25.392906053328115,-51.49746150843985,PR,Guarapuava,Cascavel,Avenida Prefeito Moacir Júlio Silvestre,open-cep
-85045370,24.0,-25.366223772138035,-51.47546830886599,PR,Guarapuava,Conradinho,Rua Iguaçu,open-cep
 85050290,2.0,,,PR,Guarapuava,Primavera,Rodovia PR-466,open-cep
 85108000,24.0,,,PR,Guarapuava,Entre Rios,,open-cep
 85118000,22.0,,,PR,Guarapuava,Palmeirinha,,open-cep
-85170000,52.0,-25.6960895,-51.6566366,PR,Pinhão,,,open-cep
 85195000,168.0,,,PR,Reserva do Iguaçu,,,open-cep
 85200970,6.0,,,PR,Pitanga,Centro,Rua João G. Padilha 250,open-cep
 85319899,4.0,,,PR,Laranjeiras do Sul,Área Rural de Laranjeiras do Sul,Área Rural,open-cep
 85410000,10.0,,,PR,Nova Aurora,,,open-cep
 85420000,2.0,,,PR,Corbélia,,,open-cep
-85440000,4.0,-24.542725,-52.9899678,PR,Ubiratã,,,open-cep
-85485000,18.0,-25.4212699,-53.1837577,PR,Três Barras do Paraná,,,open-cep
 85486012,2.0,,,PR,Três Barras do Paraná,Pioneiro,Rua Minas Gerais,open-cep
 85525000,2.0,,,PR,Mariópolis,,,open-cep
-85530000,4.0,-26.404065,-52.3513972,PR,Clevelândia,,,open-cep
-85560000,2.0,-25.8566167,-52.5294107,PR,Chopinzinho,,,open-cep
 85575000,2.0,,,PR,São Jorge D'Oeste,,,open-cep
-85580000,2.0,-25.9651274,-52.8149217,PR,Itapejara d'Oeste,,,open-cep
-85635000,14.0,-25.9004038,-53.2617627,PR,Nova Esperança do Sudoeste,,,open-cep
-85640000,2.0,-25.9168712,-53.4742414,PR,Ampére,,,open-cep
 85722150,2.0,,,PR,Medianeira,Itaipu,Avenida Brasil,open-cep
-85770000,4.0,-25.7720262,-53.5338306,PR,Realeza,,,open-cep
-85804370,14.0,-24.98455745483958,-53.49783516598299,PR,Cascavel,Guarujá,Rua das Palmas,open-cep
-85819120,2.0,-24.987572625154822,-53.442540847853344,PR,Cascavel,Universitário,Rua Ciências Sociais,open-cep
 85840000,2.0,,,PR,Céu Azul,,,open-cep
 85845000,26.0,,,PR,Vera Cruz do Oeste,,,open-cep
-85877000,30.0,-25.349171,-54.240498,PR,São Miguel do Iguaçu,,,open-cep
-85884000,290.0,-25.2954233,-54.0940666,PR,Medianeira,,,open-cep
-85887000,2.0,-25.2404183,-53.9835004,PR,Matelândia,,,open-cep
-85892000,30.0,-24.8591735,-54.3328813,PR,Santa Helena,,,open-cep
 85927000,10.0,,,PR,Toledo,Novo Sarandi,,open-cep
-85940000,2.0,-24.5741062,-53.9780237,PR,Quatro Pontes,,,open-cep
-85945000,12.0,-24.5857992,-53.5129537,PR,Tupãssi,,,open-cep
-85950000,2.0,-24.2839929,-53.8405463,PR,Palotina,,,open-cep
 85957000,4.0,,,PR,Maripá,Candeia,,open-cep
 85960000,16.0,,,PR,Marechal Cândido Rondon,,,open-cep
-85980000,4.0,-24.0851924,-54.2567519,PR,Guaíra,,,open-cep
 85998000,4.0,,,PR,Mercedes,,,open-cep
-86058100,4.0,-23.345319137936137,-51.21362015392235,PR,Londrina,Esperança,Avenida Gil de Abreu Souza,open-cep
-86125000,2.0,-23.7223793,-51.0936013,PR,Tamarana,,,open-cep
-86130000,26.0,-22.9948493,-51.1907996,PR,Bela Vista do Paraíso,,,open-cep
-86140000,26.0,-22.851714,-51.029251,PR,Primeiro de Maio,,,open-cep
-86170000,2.0,-23.0600434,-51.0373544,PR,Sertanópolis,,,open-cep
 86184310,52.0,,,PR,Cambé,Jardim Vitória,Rua Abel Pereira Nogueira,open-cep
-86200000,22.0,-23.2684137,-51.0475907,PR,Ibiporã,,,open-cep
 86300000,14.0,,,PR,Cornélio Procópio,,,open-cep
-86340000,104.0,-23.0367627,-50.816802,PR,Sertaneja,,,open-cep
-86720000,4.0,-23.319019,-51.5544109,PR,Sabáudia,,,open-cep
-87013903,4.0,-23.42110877706441,-51.92992387573787,PR,Maringá,Zona 01,Avenida Brasil 3746,open-cep
 87120000,4.0,,,PR,Floresta,,,open-cep
-87200153,8.0,-23.65576019336257,-52.61150567608149,PR,Cianorte,Zona 01,Travessa Itororó,open-cep
 87225000,10.0,,,PR,Japurá,,,open-cep
 87260000,2.0,,,PR,Araruna,,,open-cep
-87300020,16.0,-24.04512148908411,-52.37438445474429,PR,Campo Mourão,Centro,Avenida José Custódio de Oliveira,open-cep
 87340000,16.0,,,PR,Mamborê,,,open-cep
 87365000,24.0,,,PR,Quarto Centenário,,,open-cep
 87770000,10.0,,,PR,São Carlos do Ivaí,,,open-cep
 89294000,2.0,,,SC,Campo Alegre,,,open-cep
 89300000,2.0,,,SC,Mafra,,,widenet
-89300230,14.0,-26.11812243550905,-49.822460284944405,SC,Mafra,Centro I Baixada,Rua Capitão João Braz,open-cep
 89306580,4.0,,,SC,Mafra,Faxinal,Rua Gustavo Adolfo Friedrich,open-cep
 89309899,2.0,,,SC,Mafra,Área Rural de Mafra,Área Rural,open-cep
-89440000,14.0,-26.242006,-50.795687,SC,Irineópolis,,,open-cep
-89460096,6.0,-26.1858117532153,-50.39656070109071,SC,Canoinhas,Centro,Rua Frei Menandro Kamps,open-cep
-89460192,2.0,-26.187736848421924,-50.386113696136825,SC,Canoinhas,Boa Vista,Rua Miguel Tanus Isphair,open-cep
-89466560,48.0,-26.186870332877906,-50.37918761398871,SC,Canoinhas,Água Verde,Rua Rubens Ribeiro da Silva,open-cep
 89480000,112.0,,,SC,Major Vieira,,,open-cep
-89560000,14.0,-27.00544,-51.1533733,SC,Videira,,,widenet
 89613000,3.0,,,SC,Erval Velho,,,open-cep
 89770000,2.0,,,SC,Seara,,,open-cep
-89817000,2.0,-27.1333139,-52.7852104,SC,Guatambú,,,open-cep
-89830000,6.0,-26.5705893,-52.3280339,SC,Abelardo Luz,,,open-cep
-89870000,2.0,-26.852586,-52.9872478,SC,Pinhalzinho,,,open-cep
-89890000,2.0,-26.8927163,-53.1716516,SC,Cunha Porã,,,open-cep
 89891000,2.0,,,SC,Iraceminha,,,open-cep
 89935000,14.0,,,SC,Princesa,,,open-cep
 89980000,20.0,,,SC,Campo Erê,,,open-cep
 95300000,40.0,,,RS,Lagoa Vermelha,,,open-cep
-95320000,20.0,-28.7849383,-51.6091999,RS,Nova Prata,,,open-cep
-95540000,8.0,-30.2580247,-50.5097954,RS,Palmares do Sul,,,open-cep
-95552000,24.0,-30.1437605,-50.5129169,RS,Capivari do Sul,,,open-cep
 95880000,32.0,,,RS,Estrela,,,open-cep
-96055680,4.0,-31.73980788342971,-52.33650934898792,RS,Pelotas,Três Vendas,Rua Póvoas Júnior,open-cep
-96230000,4.0,-33.5198333,-53.3693967,RS,Santa Vitória do Palmar,,,open-cep
-96330000,2.0,-32.2384246,-53.0866661,RS,Arroio Grande,,,open-cep
-96400020,26.0,-31.319862645703036,-54.10406868878711,RS,Bagé,Centro,Rua Marcílio Dias,open-cep
-96400121,2.0,-31.329737906656327,-54.10858811560738,RS,Bagé,Centro,Avenida Barão do Triunfo,open-cep
 96425500,2.0,,,RS,Bagé,Floresta,Rua Lourival Clave,open-cep
 96445000,15.0,,,RS,Aceguá,,,open-cep
-96450000,78.0,-30.983755,-54.6746483,RS,Dom Pedrito,,,open-cep
-96501152,4.0,-30.028695715461605,-52.91023636301222,RS,Cachoeira do Sul,Gonçalves,Rua Marcílio Dias,open-cep
-96501460,22.0,-30.03149035714557,-52.88976148505793,RS,Cachoeira do Sul,Soares,Rua Joaquim Gomes Pereira,open-cep
 96506332,2.0,,,RS,Cachoeira do Sul,Santo Antônio,Rua Dom Pedro II,open-cep
-96508010,8.0,-30.044663090666702,-52.89408791711682,RS,Cachoeira do Sul,Centro,Rua Sete de Setembro,open-cep
-96508044,8.0,-30.040896296879843,-52.88479481766501,RS,Cachoeira do Sul,Centro,Rua Andrade Neves,open-cep
 96690000,6.0,,,RS,Pantano Grande,,,open-cep
-96750000,1.0,-30.1256795,-51.9692224,RS,Butiá,,,open-cep
-96930000,18.0,-29.6662728,-52.79971899509713,RS,Candelária,,,open-cep
 97200000,16.0,,,RS,Restinga Seca,,,open-cep
-97310016,6.0,-30.348912645749795,-54.33256571068264,RS,São Gabriel,Santo Antônio,Rua Peri da Cunha Gonçalves,open-cep
 97325000,120.0,,,RS,São Gabriel,Batovi,,open-cep
-97420000,66.0,-29.688161,-54.682643,RS,São Vicente do Sul,,,open-cep
-97501560,28.0,-29.758374449403227,-57.08962456562123,RS,Uruguaiana,Centro,Rua Treze de Maio,open-cep
 97541151,30.0,,,RS,Alegrete,Centro,Avenida Doutor Lauro Dorneles,open-cep
-97610000,8.0,-29.559214,-55.1209843,RS,São Francisco de Assis,,,open-cep
-97650000,2.0,-29.1222037,-56.5551258,RS,Itaqui,,,open-cep
-97700435,6.0,-29.191129697985723,-54.865392382536925,RS,Santiago,Centro,Rua Pinheiro Machado,open-cep
-97700650,1.0,-29.191129697985723,-54.865392382536925,RS,Santiago,Centro,Rua Pinheiro Machado,open-cep
-97753000,2.0,-28.9317296,-54.5555783,RS,Capão do Cipó,,,open-cep
 97760000,2.0,,,RS,Jaguari,,,open-cep
-97850000,142.0,-28.7278885,-54.9120278,RS,Bossoroca,,,open-cep
-97870000,26.0,-28.5117897,-55.2290047,RS,Santo Antônio das Missões,,,open-cep
 97880000,28.0,,,RS,São Nicolau,,,open-cep
 98005110,6.0,,,RS,Cruz Alta,Centro,Rua Doutor Borges de Medeiros,open-cep
 98010490,1.0,,,RS,Cruz Alta,Jung,Rua Valentin de Vit,open-cep
-98040336,30.0,-28.65108828548737,-53.59050802834681,RS,Cruz Alta,Conceição,Avenida Saturnino de Brito,open-cep
 98040570,2.0,,,RS,Cruz Alta,Pedro Bonini,Rua São Jorge,open-cep
-98125000,2.0,-28.7959241,-53.2246622,RS,Fortaleza dos Valos,,,open-cep
-98130000,6.0,-29.2286575,-53.6825217,RS,Júlio de Castilhos,,,open-cep
 98150000,2.0,,,RS,Pinhal Grande,,,open-cep
-98170000,6.0,-29.0798756,-53.8386668,RS,Tupanciretã,,,open-cep
-98200000,4.0,-28.630161,-53.096124,RS,Ibirubá,,,open-cep
-98250000,28.0,-28.3966396,-53.0952929,RS,Saldanha Marinho,,,open-cep
-98270000,52.0,-28.4217646,-53.6554254,RS,Pejuçara,,,open-cep
-98300000,130.0,-27.9010519,-53.3135927,RS,Palmeira das Missões,,,open-cep
-98335000,14.0,-27.6677983,-53.3127622,RS,Boa Vista das Missões,,,open-cep
-98570000,20.0,-27.6792143,-53.8051654,RS,Campo Novo,,,open-cep
-98580000,42.0,-27.7174002,-53.705821,RS,Coronel Bicaco,,,open-cep
-98590000,178.0,-27.852577,-53.777605,RS,Santo Augusto,,,open-cep
-98700000,16.0,-28.3878734,-53.9201692,RS,Ijuí,,,open-cep
-98750000,2.0,-28.239654,-53.7693013,RS,Ajuricaba,,,open-cep
-98770000,56.0,-28.255356,-54.013215,RS,Catuípe,,,open-cep
-98855000,2.0,-28.361628,-54.2670019,RS,Entre-Ijuís,,,open-cep
-98910000,2.0,-27.7799415,-54.2356626,RS,Três de Maio,,,open-cep
-98915000,2.0,-27.8523717,-54.1909592,RS,Independência,,,open-cep
-98920000,460.0,-27.627931,-54.3090256,RS,Horizontina,,,open-cep
-99010140,6.0,-28.266814939265664,-52.41105059309885,RS,Passo Fundo,Centro,Rua General Osório,open-cep
 99099899,26.0,,,RS,Passo Fundo,Área Rural de Passo Fundo,Área Rural,open-cep
 99175000,2.0,,,RS,Nicolau Vergueiro,,,open-cep
 99320000,2.0,,,RS,Ibirapuitã,,,open-cep
 99350000,22.0,,,RS,Victor Graeff,,,open-cep
-99400000,2.0,-28.7256962,-52.8453751,RS,Espumoso,,,open-cep
-99440000,120.0,-29.0899771,-53.2111244,RS,Salto do Jacuí,,,open-cep
 99470000,22.0,,,RS,Não-Me-Toque,,,open-cep
-99490000,21.0,-28.6262957,-52.8680873,RS,Tapera,,,open-cep
 99500000,92.0,,,RS,Carazinho,,,open-cep
 99530000,2.0,,,RS,Chapada,,,open-cep
-99870000,28.0,-27.7736185,-51.5947672,RS,São José do Ouro,,,open-cep
-99880000,4.0,-27.5658904,-51.6677057,RS,Machadinho,,,open-cep
 99925000,2.0,,,RS,Ipiranga do Sul,,,open-cep
