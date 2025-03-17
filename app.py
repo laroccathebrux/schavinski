@@ -8,6 +8,9 @@ import datetime
 from aiohttp import ClientSession
 from folium.plugins import Fullscreen
 from streamlit.components.v1 import html
+from folium.plugins import HeatMap
+
+OPENCAGE_API_KEY = "71b8c95ea704443d870f79edcc39d4d9"
 
 
 
@@ -29,14 +32,17 @@ def registrar_erro(cep, motivo, resposta=None):
 # Função assíncrona para obter coordenadas
 async def obter_coordenadas(cep, session):
     url_brasilapi = f"https://brasilapi.com.br/api/cep/v2/{cep}"
+    url_opencage = f"https://api.opencagedata.com/geocode/v1/json?q={cep},Brasil&key={OPENCAGE_API_KEY}"
 
     try:
+        # 🔹 Primeira tentativa: BrasilAPI
         async with session.get(url_brasilapi) as response:
-            if response.status == 429:
+            if response.status == 429:  # Limite de requisições
                 await asyncio.sleep(3)
                 return await obter_coordenadas(cep, session)
             
             data = await response.json()
+
             if response.status == 200 and "location" in data:
                 lat = float(data["location"]["coordinates"]["latitude"]) if "latitude" in data["location"]["coordinates"] else None
                 lon = float(data["location"]["coordinates"]["longitude"]) if "longitude" in data["location"]["coordinates"] else None
@@ -45,13 +51,16 @@ async def obter_coordenadas(cep, session):
                 neighborhood = data.get("neighborhood", "")
                 street = data.get("street", "")
                 service = data.get("service", "")
+
                 return lat, lon, state, city, neighborhood, street, service
-            else:
-                registrar_erro(cep, "BrasilAPI não retornou dados completos", data)
+
+                    
     except Exception as e:
         registrar_erro(cep, f"Erro ao acessar BrasilAPI: {str(e)}")
-    
+
+    # 🔴 Se tudo falhar, retorna valores vazios
     return None, None, "", "", "", "", ""
+
 
 # Interface do Streamlit
 st.title("\U0001F4CD Mapa de Bolhas - Vendas por Localização")
@@ -127,28 +136,34 @@ if total_pendentes > 0:
 dados_mapa = data.dropna(subset=['lat', 'lon'])
 
 # Criar abas para alternar entre visualização por CEP e por Cidade
-tab1, tab2 = st.tabs(["📍 Mapa por CEP", "🏙️ Mapa por Cidade"])
+tab1, tab2 = st.tabs(["📍 Mapa de Calor", "🏙️ Mapa Bolhas"])
 #tab2 = st.tabs(["🏙️ Mapa por Cidade"])
 
 # Aba 1: Mapa por CEP
 
 with tab1:
-    mapa_cep = folium.Map(location=[-14.2350, -51.9253], zoom_start=5)
-    Fullscreen(position="topright", title="Tela Cheia", title_cancel="Sair do Fullscreen").add_to(mapa_cep)
+    if "city" in data.columns and data["city"].notna().sum() > 0:
+        dados_cidade = data.dropna(subset=['city']).groupby('city', as_index=False).agg(
+            {'quantidade': 'sum', 'lat': 'first', 'lon': 'first'}
+        )
 
-    for _, row in dados_mapa.iterrows():
-        folium.CircleMarker(
-            location=[row['lat'], row['lon']],
-            radius=max(3, row['quantidade'] / dados_mapa['quantidade'].max() * 20),
-            popup=f"📍 CEP: {row['cep']}<br>🛒 Quantidade: {row['quantidade']}<br>🏙️ Cidade: {row['city']}<br>🏡 Bairro: {row['neighborhood']}<br>📍 Rua: {row['street']}",
-            color='#3cd062',
-            fill=True,
-            fill_opacity=0.6
-        ).add_to(mapa_cep)
+        dados_cidade = dados_cidade.dropna(subset=['lat', 'lon'])
 
-    st.header("🌎 Mapa Interativo por CEP")
-    mapa_cep_html = mapa_cep._repr_html_()
-    html(mapa_cep_html, height=600)
+        if len(dados_cidade) == 0:
+            st.warning("⚠️ Nenhuma cidade possui coordenadas válidas.")
+        else:
+            # Criar o mapa base
+            mapa_cidade = folium.Map(location=[-14.2350, -51.9253], zoom_start=5)
+            Fullscreen(position="topright", title="Tela Cheia", title_cancel="Sair do Fullscreen").add_to(mapa_cidade)
+
+            # Criar a camada de calor
+            heat_data = [[row['lat'], row['lon'], row['quantidade']] for _, row in dados_cidade.iterrows()]
+            HeatMap(heat_data, radius=25, blur=15, max_zoom=10).add_to(mapa_cidade)
+
+            # Exibir o mapa no Streamlit
+            st.header("🔥 Mapa de Calor das Vendas por Cidade")
+            mapa_cidade_html = mapa_cidade._repr_html_()
+            html(mapa_cidade_html, height=600)
 
 # Aba 2: Mapa por Cidade
 with tab2:

@@ -7,7 +7,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 13486124,2.0,,,SP,Limeira,Boa Vista,Rua Oliveiros Jorge,open-cep
 13631970,14.0,,,SP,Pirassununga,Centro,Avenida Newton Prado 3329,open-cep
 14120000,2.0,-21.2391417,-47.9747665,SP,Dumont,,,open-cep
-14180000,30.0,-20.995263700000002,-48.06604758125492,SP,Pontal,,,open-cep
+14180000,30.0,-20.9952637,-48.06604758125492,SP,Pontal,,,open-cep
 14315358,2.0,,,SP,Batatais,Riachuelo,Avenida Moacir Dias de Morais,open-cep
 15092440,14.0,-20.83906853529993,-49.41612443207329,SP,São José do Rio Preto,Jardim Tarraf II,Rua República do Líbano,open-cep
 15470000,20.0,-20.389344,-49.4320384,SP,Palestina,,,open-cep
@@ -31,7 +31,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 19940021,18.0,,,SP,Ibirarema,Centro,Rua Doutor Júlio Prestes,open-cep
 19960040,4.0,,,SP,Campos Novos Paulista,Jardim dos Ypês,Rua Elízio Aurélio Bertoncini,open-cep
 19978899,22.0,,,SP,Palmital,Área Rural de Palmital,Área Rural,open-cep
-29909010,24.0,-19.354346254710862,-40.06416803909852,ES,Linhares,Canivete,Avenida Prefeito Samuel Batista Cruz,open-cep
+29909010,24.0,-19.354346254710865,-40.06416803909852,ES,Linhares,Canivete,Avenida Prefeito Samuel Batista Cruz,open-cep
 37223000,12.0,,,MG,Ibituruna,,,open-cep
 37407000,50.0,,,MG,São Bento Abade,,,open-cep
 37418899,14.0,,,MG,Três Corações,Área Rural de Três Corações,Área Rural,open-cep
@@ -40,7 +40,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 38057801,2.0,,,MG,Uberaba,Villaggio Di Fiori,Rua Adília de Novaes Franca,open-cep
 38175000,32.0,,,MG,Santa Juliana,,,open-cep
 38184899,28.0,,,MG,Araxá,Área Rural de Araxá,Área Rural,open-cep
-38202064,2.0,-20.017460746145886,-48.92669134985756,MG,Frutal,Alto Boa Vista,Rua Afrânio Peixoto,open-cep
+38202064,2.0,-20.01746074614589,-48.92669134985756,MG,Frutal,Alto Boa Vista,Rua Afrânio Peixoto,open-cep
 38270000,2.0,,,MG,Campina Verde,,,open-cep
 38412102,2.0,-18.961691742584588,-48.35367825789632,MG,Uberlândia,Cidade Jardim,Rua dos Pinheiros,open-cep
 38490000,24.0,,,MG,Indianópolis,,,open-cep
@@ -91,7 +91,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 69315212,100.0,,,RR,Boa Vista,Distrito Industrial Governador Aquilino Mota Duarte,Rua DI-B,open-cep
 69380000,34.0,3.3613818,-59.8427241,RR,Bonfim,,,open-cep
 69931000,22.0,,,AC,Capixaba,,,open-cep
-71200234,98.0,-15.797998750000001,-47.9685851,DF,Brasília,Zona Industrial (Guará),Trecho SIA Trecho 17 Rua 12,open-cep
+71200234,98.0,-15.79799875,-47.9685851,DF,Brasília,Zona Industrial (Guará),Trecho SIA Trecho 17 Rua 12,open-cep
 72975000,80.0,,,GO,Cocalzinho de Goiás,,,open-cep
 73770000,10.0,-14.1304779,-47.5100161,GO,Alto Paraíso de Goiás,,,open-cep
 73780000,40.0,-14.9803368,-47.7824312,GO,Água Fria de Goiás,,,open-cep
@@ -102,12 +102,12 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 74610210,2.0,,,GO,Goiânia,Setor Leste Universitário,Rua 257,open-cep
 74810100,244.0,-16.70554381895677,-49.23968315248064,GO,Goiânia,Jardim Goiás,Avenida Deputado Jamel Cecílio,open-cep
 74810230,2.0,-16.699563430262774,-49.240733353453734,GO,Goiânia,Jardim Goiás,Rua 55,open-cep
-75110250,22.0,-16.33639256351066,-48.939839620373476,GO,Anápolis,Jundiaí,Rua Elias Gomes,open-cep
+75110250,22.0,-16.33639256351066,-48.93983962037347,GO,Anápolis,Jundiaí,Rua Elias Gomes,open-cep
 75110477,22.0,,,GO,Anápolis,Jundiaí,Rua Presidente Kennedy,open-cep
 75184000,120.0,,,GO,Gameleira de Goiás,,,open-cep
 75240000,28.0,,,GO,Bela Vista de Goiás,,,open-cep
 75395000,24.0,,,GO,Avelinópolis,,,open-cep
-75503070,24.0,-18.422736395524474,-49.2151304295462,GO,Itumbiara,Centro,Rua Franklin Xavier,open-cep
+75503070,24.0,-18.42273639552447,-49.2151304295462,GO,Itumbiara,Centro,Rua Franklin Xavier,open-cep
 75600000,24.0,,,GO,Goiatuba,,,open-cep
 75610000,72.0,-17.8063651,-49.623645,GO,Joviânia,,,open-cep
 75620000,98.0,-17.5144331,-49.4449688,GO,Pontalina,,,open-cep
@@ -140,7 +140,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 75900000,72.0,,,,,,,
 75906490,322.0,-17.804335895705655,-50.92674691036732,GO,Rio Verde,Jardim Bela Vista,Rua Honorina Campos de Leão,open-cep
 75908740,2.0,-17.795052075257754,-50.943000678783946,GO,Rio Verde,Setor Morada do Sol,Avenida José Walter,open-cep
-75909802,120.0,-17.778794331257203,-50.951679330944444,GO,Rio Verde,Residencial Interlagos,Rua Acácio Fonseca,open-cep
+75909802,120.0,-17.778794331257203,-50.95167933094445,GO,Rio Verde,Residencial Interlagos,Rua Acácio Fonseca,open-cep
 75915000,301.0,,,GO,Montividiu,,,open-cep
 75930000,26.0,,,GO,Maurilândia,,,open-cep
 75940000,4.0,-17.3407253,-49.9292351,GO,Edéia,,,open-cep
@@ -165,7 +165,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 77700000,4.0,-8.835429,-48.511432,TO,Guaraí,,,open-cep
 77813445,24.0,,,TO,Araguaína,Loteamento Dona Nélcia,Rua Cardel Arco Verde,open-cep
 77848000,60.0,-7.150072,-48.6925943,TO,Santa Fé do Araguaia,,,open-cep
-78050260,2.0,-15.577395577398725,-56.07385785499425,MT,Cuiabá,Jardim Aclimação,Rua Gentil Esteves,open-cep
+78050260,2.0,-15.577395577398724,-56.07385785499425,MT,Cuiabá,Jardim Aclimação,Rua Gentil Esteves,open-cep
 78200000,20.0,,,MT,Cáceres,,,widenet
 78250000,20.0,,,MT,Pontes e Lacerda,,,open-cep
 78254000,28.0,,,MT,Conquista D'Oeste,,,open-cep
@@ -188,7 +188,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 78545000,294.0,,,MT,Santa Carmem,,,open-cep
 78548000,1.0,,,MT,Nova Santa Helena,,,open-cep
 78550544,48.0,-11.840431530213822,-55.50219534503852,MT,Sinop,Setor Industrial Norte,Avenida dos Jequitibás,open-cep
-78556646,60.0,-11.880145500000001,-55.51754995,MT,Sinop,Jardim Celeste,Rua das Jaboticabeiras,open-cep
+78556646,60.0,-11.8801455,-55.51754995,MT,Sinop,Jardim Celeste,Rua das Jaboticabeiras,open-cep
 78559899,16.0,,,MT,Sinop,Área Rural de Sinop,Área Rural,open-cep
 78573000,60.0,,,MT,Tapurah,,,open-cep
 78578000,52.0,,,MT,Ipiranga do Norte,,,open-cep
@@ -231,7 +231,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 79051690,8.0,-20.4897404,-54.58473835,MS,Campo Grande,Jardim Auxiliadora,Rua Luiz Coutinho de Alencar,open-cep
 79124899,6.0,,,MS,Campo Grande,Área Rural de Campo Grande,Área Rural,open-cep
 79150000,132.0,,,MS,Maracaju,,,open-cep
-79150142,36.0,-21.628360804791818,-55.15812323211039,MS,Maracaju,Dom Bosco,Rua Melânio Garcia Barbosa,open-cep
+79150142,36.0,-21.628360804791814,-55.15812323211039,MS,Maracaju,Dom Bosco,Rua Melânio Garcia Barbosa,open-cep
 79170000,2.0,,,MS,Sidrolândia,,,open-cep
 79180000,22.0,-20.4477984,-53.7609001,MS,Ribas do Rio Pardo,,,open-cep
 79260000,22.0,,,MS,Bela Vista,,,open-cep
@@ -241,10 +241,10 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 79560000,108.0,-18.7949051,-52.6199512,MS,Chapadão do Sul,,,open-cep
 79780000,12.0,,,MS,Bataguassu,,,open-cep
 79904442,60.0,-22.52969317863161,-55.716812972734495,MS,Ponta Porã,Vila Vitória,Rua Coronel Camisão,open-cep
-79904686,4.0,-22.535809637712294,-55.719662699188994,MS,Ponta Porã,Centro,Rua Guia Lopes,open-cep
+79904686,4.0,-22.535809637712298,-55.719662699188994,MS,Ponta Porã,Centro,Rua Guia Lopes,open-cep
 79932000,2.0,,,MS,Aral Moreira,Vila Marques,,open-cep
-81200300,6.0,-25.434091962199222,-49.33491533012924,PR,Curitiba,Mossunguê,Rua José Nicco,open-cep
-81945020,100.0,-25.597014749367638,-49.30721299307157,PR,Curitiba,Campo de Santana,Rua Ângela Gabardo Parolin,open-cep
+81200300,6.0,-25.434091962199226,-49.33491533012924,PR,Curitiba,Mossunguê,Rua José Nicco,open-cep
+81945020,100.0,-25.59701474936764,-49.30721299307157,PR,Curitiba,Campo de Santana,Rua Ângela Gabardo Parolin,open-cep
 83880000,14.0,,,PR,Rio Negro,,,open-cep
 83980000,32.0,,,PR,Antônio Olinto,,,open-cep
 84043000,20.0,,,PR,Ponta Grossa,Colônia Dona Luíza,Avenida Visconde de Mauá,open-cep
@@ -283,7 +283,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 85722150,2.0,,,PR,Medianeira,Itaipu,Avenida Brasil,open-cep
 85770000,4.0,-25.7720262,-53.5338306,PR,Realeza,,,open-cep
 85804370,14.0,-24.98455745483958,-53.49783516598299,PR,Cascavel,Guarujá,Rua das Palmas,open-cep
-85819120,2.0,-24.987572625154826,-53.442540847853344,PR,Cascavel,Universitário,Rua Ciências Sociais,open-cep
+85819120,2.0,-24.987572625154822,-53.442540847853344,PR,Cascavel,Universitário,Rua Ciências Sociais,open-cep
 85840000,2.0,,,PR,Céu Azul,,,open-cep
 85845000,26.0,,,PR,Vera Cruz do Oeste,,,open-cep
 85877000,30.0,-25.349171,-54.240498,PR,São Miguel do Iguaçu,,,open-cep
@@ -298,7 +298,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 85960000,16.0,,,PR,Marechal Cândido Rondon,,,open-cep
 85980000,4.0,-24.0851924,-54.2567519,PR,Guaíra,,,open-cep
 85998000,4.0,,,PR,Mercedes,,,open-cep
-86058100,4.0,-23.345319137936134,-51.213620153922356,PR,Londrina,Esperança,Avenida Gil de Abreu Souza,open-cep
+86058100,4.0,-23.345319137936137,-51.21362015392235,PR,Londrina,Esperança,Avenida Gil de Abreu Souza,open-cep
 86125000,2.0,-23.7223793,-51.0936013,PR,Tamarana,,,open-cep
 86130000,26.0,-22.9948493,-51.1907996,PR,Bela Vista do Paraíso,,,open-cep
 86140000,26.0,-22.851714,-51.029251,PR,Primeiro de Maio,,,open-cep
@@ -325,7 +325,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 89440000,14.0,-26.242006,-50.795687,SC,Irineópolis,,,open-cep
 89460096,6.0,-26.1858117532153,-50.39656070109071,SC,Canoinhas,Centro,Rua Frei Menandro Kamps,open-cep
 89460192,2.0,-26.187736848421924,-50.386113696136825,SC,Canoinhas,Boa Vista,Rua Miguel Tanus Isphair,open-cep
-89466560,48.0,-26.186870332877902,-50.37918761398871,SC,Canoinhas,Água Verde,Rua Rubens Ribeiro da Silva,open-cep
+89466560,48.0,-26.186870332877906,-50.37918761398871,SC,Canoinhas,Água Verde,Rua Rubens Ribeiro da Silva,open-cep
 89480000,112.0,,,SC,Major Vieira,,,open-cep
 89560000,14.0,-27.00544,-51.1533733,SC,Videira,,,widenet
 89613000,3.0,,,SC,Erval Velho,,,open-cep
@@ -362,7 +362,7 @@ cep,quantidade,lat,lon,state,city,neighborhood,street,service
 97310016,6.0,-30.348912645749795,-54.33256571068264,RS,São Gabriel,Santo Antônio,Rua Peri da Cunha Gonçalves,open-cep
 97325000,120.0,,,RS,São Gabriel,Batovi,,open-cep
 97420000,66.0,-29.688161,-54.682643,RS,São Vicente do Sul,,,open-cep
-97501560,28.0,-29.758374449403227,-57.089624565621236,RS,Uruguaiana,Centro,Rua Treze de Maio,open-cep
+97501560,28.0,-29.758374449403227,-57.08962456562123,RS,Uruguaiana,Centro,Rua Treze de Maio,open-cep
 97541151,30.0,,,RS,Alegrete,Centro,Avenida Doutor Lauro Dorneles,open-cep
 97610000,8.0,-29.559214,-55.1209843,RS,São Francisco de Assis,,,open-cep
 97650000,2.0,-29.1222037,-56.5551258,RS,Itaqui,,,open-cep
