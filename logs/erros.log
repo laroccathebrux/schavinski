@@ -1,0 +1,3 @@
+[2025-09-24 08:13:07] CEP: 75900000 - Erro: Erro ao acessar BrasilAPI: 504, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://brasilapi.com.br/api/cep/v2/75900000'
+[2025-09-24 08:13:07] CEP: 76800000 - Erro: Erro ao acessar BrasilAPI: 504, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://brasilapi.com.br/api/cep/v2/76800000'
+[2025-09-24 08:13:09] CEP: 79158899 - Erro: Erro ao acessar BrasilAPI: 504, message='Attempt to decode JSON with unexpected mimetype: text/html; charset=utf-8', url='https://brasilapi.com.br/api/cep/v2/79158899'
